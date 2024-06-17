@@ -3,7 +3,7 @@
 # Based on python-jax, python-jax-opt-cuda-git; original contributors:
 # Contributor: Daniel Bershatsky <bepshatsky@yandex.ru>
 pkgname='python-jaxlib-rocm'
-pkgver=0.4.16
+pkgver=0.4.29
 pkgrel=1
 pkgdesc='XLA library for JAX (jaxlib for ROCM)'
 _srcname="jax-jaxlib-v${pkgver}"
@@ -39,8 +39,8 @@ source=(
   "${_xlaname}.tar.gz::https://github.com/ROCmSoftwarePlatform/xla/archive/refs/heads/rocm-jaxlib-v${pkgver}.tar.gz"
 )
 sha256sums=(
-  '85c8bc050abe0a2cf62e8cfc7edb4904dd3807924b5714ec6277f291c576b5ca'
-  '7245a77551c2638d84fceb0e3da95968dfe2e17f420345989aee9d0669b6f3c8'
+  '3a8005f4f62d35a5aad7e3dbd596890b47c81cc6e34fcfe3dcb93b3ca7cb1246'
+  '13338dd20f67ca0a83894a24f2dc9ef772c9ceee8abfbdc68bdeb4f771065748'
 )
 
 # test
@@ -66,6 +66,7 @@ build() {
   else
     export TF_ROCM_AMDGPU_TARGETS="gfx803,gfx900,gfx906,gfx908,gfx90a,gfx1030,gfx1100,gfx1101,gfx1102"
   fi
+
   # XXX use xla tree from ROCmSoftwarePlatform:xla@v$pkgver with fixes for rocm
   # FIXME hipcc and hipcc.perl is searched in $ROCM_HOME/hip/bin but only available in $ROCM_HOME/bin
   # FIXME include/hipblaslt/hipblaslt.h not found
