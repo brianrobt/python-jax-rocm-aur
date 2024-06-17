@@ -1,6 +1,6 @@
 pkgbase = python-jaxlib-rocm
 	pkgdesc = XLA library for JAX (jaxlib for ROCM)
-	pkgver = 0.4.16
+	pkgver = 0.4.29
 	pkgrel = 1
 	url = https://github.com/google/jax
 	arch = x86_64
@@ -22,11 +22,11 @@ pkgbase = python-jaxlib-rocm
 	depends = miopen
 	depends = rccl
 	depends = rocm-hip-runtime
-	provides = python-jaxlib=0.4.16
+	provides = python-jaxlib=0.4.29
 	conflicts = python-jaxlib
-	source = jax-jaxlib-v0.4.16.tar.gz::https://github.com/google/jax/archive/refs/tags/jaxlib-v0.4.16.tar.gz
-	source = xla-rocm-jaxlib-v0.4.16.tar.gz::https://github.com/ROCmSoftwarePlatform/xla/archive/refs/heads/rocm-jaxlib-v0.4.16.tar.gz
-	sha256sums = 85c8bc050abe0a2cf62e8cfc7edb4904dd3807924b5714ec6277f291c576b5ca
-	sha256sums = c9bffb5801020bceab1b13220eeb3619aaf678b0df390417aae33c4c064bed16
+	source = jax-jaxlib-v0.4.29.tar.gz::https://github.com/google/jax/archive/refs/tags/jaxlib-v0.4.29.tar.gz
+	source = xla-rocm-jaxlib-v0.4.29.tar.gz::https://github.com/ROCmSoftwarePlatform/xla/archive/refs/heads/rocm-jaxlib-v0.4.29.tar.gz
+	sha256sums = 3a8005f4f62d35a5aad7e3dbd596890b47c81cc6e34fcfe3dcb93b3ca7cb1246
+	sha256sums = 13338dd20f67ca0a83894a24f2dc9ef772c9ceee8abfbdc68bdeb4f771065748
 
 pkgname = python-jaxlib-rocm

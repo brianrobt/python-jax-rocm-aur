@@ -1,7 +1,14 @@
-# Maintainer: wuxxin <wuxxin@gmail.com>
 # Based on https://github.com/google/jax/blob/main/build/rocm/README.md
-# Based on python-jax, python-jax-opt-cuda-git; original contributors:
+# Based on python-jax, python-jax-opt-cuda-git
+#
+# Maintainer: Brian Thompson <brianrobt@pm.me>
+#
+# Previous contributors:
+# Contributor: wuxxin <wuxxin@gmail.com>
+#
+# Original contributors:
 # Contributor: Daniel Bershatsky <bepshatsky@yandex.ru>
+
 pkgname='python-jaxlib-rocm'
 pkgver=0.4.29
 pkgrel=1
