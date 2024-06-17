@@ -29,4 +29,4 @@ pkgbase = python-jax-rocm
 	sha256sums = 3a8005f4f62d35a5aad7e3dbd596890b47c81cc6e34fcfe3dcb93b3ca7cb1246
 	sha256sums = 13338dd20f67ca0a83894a24f2dc9ef772c9ceee8abfbdc68bdeb4f771065748
 
-pkgname = python-jaxlib-rocm
+pkgname = python-jax-rocm
