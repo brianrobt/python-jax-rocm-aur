@@ -9,7 +9,7 @@
 # Original contributors:
 # Contributor: Daniel Bershatsky <bepshatsky@yandex.ru>
 
-pkgname='python-jaxlib-rocm'
+pkgname='python-jax-rocm'
 pkgver=0.4.30
 pkgrel=1
 pkgdesc='XLA library for JAX (jaxlib for ROCM)'

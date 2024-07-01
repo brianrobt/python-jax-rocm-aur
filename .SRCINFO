@@ -1,4 +1,4 @@
-pkgbase = python-jaxlib-rocm
+pkgbase = python-jax-rocm
 	pkgdesc = XLA library for JAX (jaxlib for ROCM)
 	pkgver = 0.4.30
 	pkgrel = 1
@@ -29,4 +29,4 @@ pkgbase = python-jaxlib-rocm
 	sha256sums = 0ef9635c734d9bbb44fcc87df4f1c3ccce1cfcfd243572c80d36fcdf826fe1e6
 	sha256sums = fd0f4d49247cca05cfef5bd37180b6f84aadef6a098abed83b1572496515513b
 
-pkgname = python-jaxlib-rocm
+pkgname = python-jax-rocm
