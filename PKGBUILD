@@ -10,7 +10,7 @@
 # Contributor: Daniel Bershatsky <bepshatsky@yandex.ru>
 
 pkgname='python-jaxlib-rocm'
-pkgver=0.4.29
+pkgver=0.4.30
 pkgrel=1
 pkgdesc='XLA library for JAX (jaxlib for ROCM)'
 _srcname="jax-jaxlib-v${pkgver}"
@@ -46,8 +46,8 @@ source=(
   "${_xlaname}.tar.gz::https://github.com/ROCmSoftwarePlatform/xla/archive/refs/heads/rocm-jaxlib-v${pkgver}.tar.gz"
 )
 sha256sums=(
-  '3a8005f4f62d35a5aad7e3dbd596890b47c81cc6e34fcfe3dcb93b3ca7cb1246'
-  '13338dd20f67ca0a83894a24f2dc9ef772c9ceee8abfbdc68bdeb4f771065748'
+  '0ef9635c734d9bbb44fcc87df4f1c3ccce1cfcfd243572c80d36fcdf826fe1e6'
+  'fd0f4d49247cca05cfef5bd37180b6f84aadef6a098abed83b1572496515513b'
 )
 
 # test
